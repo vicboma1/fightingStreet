@@ -1,5 +1,5 @@
-# Street Fighter 1 For Web ( NON COMMERCIAL !)
-Port Street Fighter 1 for Web with Html5 + JavaScript
+# Fighting Street For Web ( NON COMMERCIAL !)
+Port Fighting Street for Web with Html5 + JavaScript
 
 ## [Video playlist](https://www.youtube.com/playlist?list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ) 
 
