@@ -4,11 +4,11 @@ Port Fighting Street for Web with Html5 + JavaScript
 ## [Video playlist](https://www.youtube.com/playlist?list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ) 
 
 ## Source : 
-* Developed : https://github.com/vicboma1/streetFighter1/tree/master/src/developed
+* Developed : https://github.com/vicboma1/fightingStreet/tree/master/src/developed
 
-## [Intro :](https://www.youtube.com/watch?v=u7Q_HocWu8E&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ&index=1)
+## [Intro :](https://www.youtube.com/watch?v=u7Q_HocWu8E&index=1&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ)
 
-[![](https://github.com/vicboma1/fightingStreet/blob/master/gif/intro.gif)](https://www.youtube.com/watch?v=0Q1pxyNuRmc&list=PLNph7ndeSqE_UnmP9yFprGpAzudlRTg3r&index=1)
+[![](https://github.com/vicboma1/fightingStreet/blob/master/gif/intro.gif)](https://www.youtube.com/watch?v=u7Q_HocWu8E&index=1&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ)
 
 ## Images :
 
