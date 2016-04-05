@@ -22,7 +22,7 @@ Logo.prototype = {
         var tweenPositionLogo_01 = game.add.tween(sprite)
             .to(
                 { x: game.world.centerX +25, y :game.world.centerY - 20},
-                10,
+                2,
                 Phaser.Easing.Linear.None,
                 true,
                 1100
@@ -40,7 +40,7 @@ Logo.prototype = {
         var tweenPositionLogo_02 = game.add.tween(sprite)
             .to(
                 { x: game.world.centerX , y :game.world.centerY-sprite.height-40 },
-                5,
+                2,
                 Phaser.Easing.Linear.None,
                 false,
                 500
@@ -59,7 +59,7 @@ Logo.prototype = {
         var tweenPositionLogo_03 = game.add.tween(sprite)
             .to(
                 {x: game.world.centerX, y :game.world.centerY-sprite.height-110 },
-                5,
+                2,
                 Phaser.Easing.Linear.None,
                 false,
                 500
@@ -81,7 +81,7 @@ Logo.prototype = {
         var tweenPositionLogo_04 = game.add.tween(sprite)
             .to(
                 { x: game.world.centerX+20, y :game.world.centerY - 110 },
-                5,
+                2,
                 Phaser.Easing.Linear.None,
                 true
             );

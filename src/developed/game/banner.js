@@ -1,12 +1,15 @@
 ////////////////////////////////////////////////////////////////////////////////////   VIEW BACKGROUND BANNER
 
 var Banner = function Banner( utils ){
-    this.RESET = 15;
+    this.PLAYER_MENU = 10;
+    this.RESET = 20;
     this.timer = null;
     this.FROMNEC = "FromNec.png";
     this.VICBOMA = "credits2.png";
     this.PUSHBUTTON = "pushButton.png";
     this.CREDIT = "credit.png";
+    this.SELECT = "select.png";
+    this.PLAYERS = "player.png";
     this.utils = utils;
 
     this.getVicboma = function(){ return this.vicboma; };
@@ -20,6 +23,12 @@ var Banner = function Banner( utils ){
 
     this.getCredit = function(){ return this.credit; };
     this.setCredit = function(credit){ this.credit = credit; };
+
+    this.getSelect = function(){ return this.select; };
+    this.setSelect = function(select){ this.select = select; };
+
+    this.getPlayer = function(){ return this.player; };
+    this.setPlayer = function(player){ this.player = player; };
 };
 
 Banner.prototype.constructor = Banner;
@@ -30,6 +39,20 @@ Banner.prototype = {
         this.createPushButton();
         this.createFromNec();
         this.createCredit();
+        this.createSelect();
+        this.createPlayer();
+    },
+    createPlayer : function() {
+        var player = game.add.sprite(game.world.centerX-145, game.world.centerY+ 80, ATLAS, this.PLAYERS);
+        player.scale.setTo(0.8,0.9);
+        player.visible = false;
+        this.setPlayer(player);
+    },
+     createSelect : function() {
+        var select = game.add.sprite(game.world.centerX-240, game.world.centerY+ 40, ATLAS, this.SELECT);
+        select.scale.setTo(0.8,0.9);
+        select.visible = false;
+        this.setSelect(select);
     },
      createFromNec : function() {
         var fromNec = game.add.sprite(game.world.centerX-80, game.world.centerY+90, ATLAS, this.FROMNEC);
@@ -66,14 +89,28 @@ Banner.prototype = {
 
         var loops = 0;
         this.timer = game.time.create(false);
+        var blink = null;
         this.timer.loop(1200, function(args) {
+
+            
+
+            if(loops == this.PLAYER_MENU ){
+                var select = this.getSelect();
+                blink = select;
+                this.getPushButton().visible = false;
+                this.getFromNec().visible = false;
+                this.getPlayer().visible = true;
+                select.visible = true;
+            }
+            else if(loops <= this.PLAYER_MENU )
+                blink = args;
 
             if(loops == this.RESET ){
                 this.timer.stop();
                 game.state.start(INTRO);
             }
 
-            this.utils.toBlink(args);
+            this.utils.toBlink(blink);
             loops++;
 
         }, this, this.getPushButton());

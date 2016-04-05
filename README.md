@@ -6,7 +6,7 @@ Port Fighting Street for Web with Html5 + JavaScript
 ## Source : 
 * Developed : https://github.com/vicboma1/fightingStreet/tree/master/src/developed
 
-## [Intro :](https://www.youtube.com/watch?v=u7Q_HocWu8E&index=1&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ)
+## [Intro :](https://www.youtube.com/watch?v=6pA0YIFhg9A&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ&index=3)
 
 [![](https://github.com/vicboma1/fightingStreet/blob/master/gif/intro.gif)](https://www.youtube.com/watch?v=u7Q_HocWu8E&index=1&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ)
 
@@ -16,3 +16,8 @@ Port Fighting Street for Web with Html5 + JavaScript
 
 ![](https://github.com/vicboma1/fightingStreet/blob/master/images/Screen%20Shot%202016-04-04%20at%2018.39.45.png)
 
+![](https://github.com/vicboma1/fightingStreet/blob/master/images/Screen%20Shot%202016-04-05%20at%2015.12.41.png)
+
+![](https://github.com/vicboma1/fightingStreet/blob/master/images/Screen%20Shot%202016-04-04%20at%2022.37.43.png)
+
+ 

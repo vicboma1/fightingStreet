@@ -17,6 +17,7 @@ Utils.prototype = {
         window.open("https://github.com/vicboma1/fightingStreet", "_blank");
     },
     toBlink : function(element){
+
         var tweenToBlinkOn = game.add.tween(element)
             .to(
                 { alpha: 1 },
@@ -30,7 +31,7 @@ Utils.prototype = {
             tweenToBlinkOn.stop();
             game.tweens.remove(tweenToBlinkOn);
 
-            var tweenToBlinkOff = game.add.tween(_element)
+            var tweenToBlinkOff = game.add.tween(element)
                 .to(
                     { alpha: 0 },
                     10,

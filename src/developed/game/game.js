@@ -16,9 +16,7 @@ FightingStreet.prototype.constructor = FightingStreet;
 FightingStreet.prototype = {
   preload: function (){
     this.banner = new Banner(new Utils());
-   
-    this.assets = new Assets(this.audio);
-
+    this.assets = new Assets();
     this.wall =  new Wall(new Hero(), new Logo(), this.banner);
   },
   create: function() {

@@ -6,7 +6,7 @@
         <key>texturePackerVersion</key>
         <string>4.1.0</string>
         <key>fileName</key>
-        <string>/Users/vicboma/Downloads/streetFighter1-master/src/developed/assets/fighting street.tps</string>
+        <string>/Users/vicboma/Downloads/fightingStreet-master/src/developed/assets/fighting street.tps</string>
         <key>autoSDSettings</key>
         <array>
             <struct type="AutoSDSettings">
@@ -201,7 +201,9 @@
         <map type="IndividualSpriteSettingsMap">
             <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/FromNec.png</key>
             <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/logo2.png</key>
+            <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/player.png</key>
             <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/pushButton.png</key>
+            <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/select.png</key>
             <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro/assets/deltas/0.png</key>
             <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro/assets/deltas/000.png</key>
             <key type="filename">../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro/assets/deltas/001.png</key>
@@ -238,6 +240,8 @@
             <filename>../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro/assets/deltas/001.png</filename>
             <filename>../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro/assets/deltas/2.png</filename>
             <filename>../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro/assets/deltas/3.png</filename>
+            <filename>../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/player.png</filename>
+            <filename>../../../../../Desktop/Informatica/juegos/streetFighter1/00-intro copy/assets/deltas/select.png</filename>
         </array>
         <key>ignoreFileList</key>
         <array/>
