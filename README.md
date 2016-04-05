@@ -8,7 +8,7 @@ Port Fighting Street for Web with Html5 + JavaScript
 
 ## [Intro :](https://www.youtube.com/watch?v=6pA0YIFhg9A&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ&index=3)
 
-[![](https://github.com/vicboma1/fightingStreet/blob/master/gif/intro.gif)](https://www.youtube.com/watch?v=u7Q_HocWu8E&index=1&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ)
+[![](http://i.giphy.com/3oGRFK790a1LRcZ9Pa.gif)](https://www.youtube.com/watch?v=u7Q_HocWu8E&index=1&list=PLNph7ndeSqE9OIWrsBeCKQTG4OvAWuBlZ)
 
 ## Images :
 
